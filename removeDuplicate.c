@@ -26,7 +26,6 @@ void removeDuplicates(char * str)
 void removeAll(char * str, const char toRemove, int index)
 {
     int i;
-
     while(str[index] != '\0')
     {
         if(str[index] == toRemove)
